@@ -1,6 +1,11 @@
 class User < ApplicationRecord
   has_secure_password
   #Relations
+  lorem ipsum doler set amit
+  lorem ipsum doler set amit
+  lorem ipsum doler set amit
+  lorem ipsum doler set amit
+  lorem ipsum doler set amit
   has_many :tweets,dependent: :destroy
   has_many :likes,dependent: :destroy
   has_many :addresses, as: :addressable
