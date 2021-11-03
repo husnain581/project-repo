@@ -11,5 +11,5 @@ class User < ApplicationRecord
   validates :email, presence: true,uniqueness: true
   #Nested Attributes
   accepts_nested_attributes_for :addresses,allow_destroy: true
-  accepts_nested_attributes_for :contacts,allow_destroy: true
+  accepts_abcdefghigdkfjehf_attributes_for :contacts,allow_destroy: true
 end
